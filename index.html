@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Nusrat! 🎀</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Decorations -->
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <!-- Confetti Container -->
+    <div id="confetti-layer"></div>
+
+
+    <!-- ================= HEADER ================= -->
+    <header class="topbar">
+
+        <a href="#" class="brand">
+            ✿ A Little Something
+        </a>
+
+        <span class="top-note">
+            Made with lots of love ♡
+        </span>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero section-shell" id="home">
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    ✦ TODAY IS ALL ABOUT YOU ✦
+                </p>
+
+                <h1>
+                    Happy Birthday
+                    <br>
+                    <span class="script-name">
+                        Nusrat, my cutie barishallaaaaa
+                    </span>
+                    ♡
+                </h1>
+
+                <p class="hero-description">
+                    A tiny corner of the internet, made just for you.
+                    There are a few little surprises waiting inside...
+                </p>
+
+                <button class="primary-button" id="start-button">
+                    Let the surprises begin ↗
+                </button>
+
+                <p class="micro-note">
+                    ♡ A little reminder: you are so loved by nousheeee...
+                </p>
+
+            </div>
+
+
+            <!-- Gift Box Illustration -->
+            <div class="hero-art">
+
+                <div class="halo"></div>
+
+                <span class="floating floating-star">✦</span>
+                <span class="floating floating-heart">♡</span>
+                <span class="floating floating-flower">✿</span>
+
+                <div class="gift-shadow"></div>
+
+                <div class="gift-box" id="hero-gift">
+
+                    <div class="gift-lid">
+                        <span class="ribbon-loop loop-left"></span>
+                        <span class="ribbon-loop loop-right"></span>
+                        <span class="lid-ribbon"></span>
+                    </div>
+
+                    <div class="gift-body">
+                        <span class="box-ribbon"></span>
+                        <span class="box-bow">♡</span>
+                    </div>
+
+                </div>
+
+                <div class="art-caption">
+                    I love you so much barishallaaa...
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= SURPRISES SECTION ================= -->
+        <section class="surprises section-shell" id="surprises">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    YOUR LITTLE BIRTHDAY UNIVERSE
+                </p>
+
+                <h2>
+                    Five little things,
+                    <em>just for you.</em>
+                </h2>
+
+                <p>
+                    Take your time, open each one, and collect all five hearts.
+                </p>
+
+            </div>
+
+
+            <!-- Surprise Progress Bar -->
+            <div class="progress-wrap">
+
+                <div class="progress-label">
+                    <span>Your surprise collection</span>
+
+                    <strong>
+                        <span id="opened-count">0</span> / 5 opened
+                    </strong>
+                </div>
+
+                <div class="progress-track">
+                    <div id="progress-fill"></div>
+                </div>
+
+            </div>
+
+
+
+            <!-- Surprise Cards -->
+            <div class="surprise-grid">
+
+
+                <!-- Surprise 1: Gift -->
+                <button class="surprise-card gift-card"
+                        data-surprise="gift">
+
+                    <span class="card-number">01</span>
+                    <span class="card-icon">🎁</span>
+
+                    <span class="card-title">
+                        A Little Present
+                    </span>
+
+                    <span class="card-copy">
+                        A gift from my heart
+                    </span>
+
+                    <span class="card-action">
+                        Open surprise ↗
+                    </span>
+
+                    <span class="opened-stamp">
+                        ♡ Opened
+                    </span>
+
+                </button>
+
+
+
+                <!-- Surprise 2: Photos -->
+                <button class="surprise-card photo-card"
+                        data-surprise="photos">
+
+                    <span class="card-number">02</span>
+                    <span class="card-icon">📸</span>
+
+                    <span class="card-title">
+                        Our Memories
+                    </span>
+
+                    <span class="card-copy">
+                        Little moments, big love
+                    </span>
+
+                    <span class="card-action">
+                        Open album ↗
+                    </span>
+
+                    <span class="opened-stamp">
+                        ♡ Opened
+                    </span>
+
+                </button>
+
+
+
+                <!-- Surprise 3: Letter -->
+                <button class="surprise-card letter-card"
+                        data-surprise="letter">
+
+                    <span class="card-number">03</span>
+                    <span class="card-icon">💌</span>
+
+                    <span class="card-title">
+                        A Letter for You
+                    </span>
+
+                    <span class="card-copy">
+                        Things I want you to know
+                    </span>
+
+                    <span class="card-action">
+                        Read letter ↗
+                    </span>
+
+                    <span class="opened-stamp">
+                        ♡ Opened
+                    </span>
+
+                </button>
+
+
+
+                <!-- Surprise 4: Birthday Cake -->
+                <button class="surprise-card cake-card"
+                        data-surprise="cake">
+
+                    <span class="card-number">04</span>
+                    <span class="card-icon">🎂</span>
+
+                    <span class="card-title">
+                        Make a Wish
+                    </span>
+
+                    <span class="card-copy">
+                        Your own little cake moment
+                    </span>
+
+                    <span class="card-action">
+                        Celebrate ↗
+                    </span>
+
+                    <span class="opened-stamp">
+                        ♡ Opened
+                    </span>
+
+                </button>
+
+
+
+                <!-- Surprise 5: Final Surprise -->
+                <button class="surprise-card countdown-card"
+                        data-surprise="countdown">
+
+                    <span class="card-number">05</span>
+                    <span class="card-icon">⏳</span>
+
+                    <span class="card-title">
+                        One More Thing...
+                    </span>
+
+                    <span class="card-copy">
+                        A final birthday surprise
+                    </span>
+
+                    <span class="card-action">
+                        Find out ↗
+                    </span>
+
+                    <span class="opened-stamp">
+                        ♡ Opened
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+            <!-- Appears after opening all five surprises -->
+            <div class="completion-note" id="completion-note" hidden>
+                All five surprises opened!
+                You officially deserve the biggest hug. ♡
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= FINAL BIRTHDAY MESSAGE ================= -->
+        <section class="closing section-shell">
+
+            <div class="closing-flower">✿</div>
+
+            <p class="eyebrow">
+                A LITTLE NOTE BEFORE YOU GO
+            </p>
+
+            <h2>
+                May this new year of yours
+                <br>
+                feel like <em>coming home to joy.</em>
+            </h2>
+
+            <p>
+                More laughter, softer days, brave dreams,
+                and people who love you exactly as you are.
+            </p>
+
+            <button class="text-button" id="back-to-top">
+                Back to the top ↑
+            </button>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <span>
+            Made for Barishalla Monu
+        </span>
+
+        <span>
+            With love, always ♡
+        </span>
+
+    </footer>
+
+
+
+    <!-- ================= SURPRISE POPUP ================= -->
+    <div class="modal-backdrop"
+         id="modal-backdrop"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="modal-title"
+         hidden>
+
+        <div class="modal-card">
+
+            <button class="modal-close"
+                    id="modal-close"
+                    aria-label="Close surprise">
+                ×
+            </button>
+
+            <div class="modal-decoration" id="modal-decoration">
+                ✿
+            </div>
+
+            <p class="eyebrow" id="modal-eyebrow">
+                A LITTLE SURPRISE
+            </p>
+
+            <h2 id="modal-title">
+                For you, Monu ♡
+            </h2>
+
+            <!-- JavaScript inserts each surprise here -->
+            <div class="modal-content" id="modal-content">
+            </div>
+
+            <button class="primary-button modal-next" id="modal-done">
+                Keep exploring ♡
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+    <script src="script.js"></script>
+
+</body>
+</html>
